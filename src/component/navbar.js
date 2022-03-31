@@ -16,18 +16,6 @@ export default class Navbar extends React.Component{
                         <li className="nav-item">
                             <Link className="nav-link Active" aria-current='/page' to="/">Home</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to='/gallery'>Gallery</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to='/cart'>Cart</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to='/about'>About</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to='/contact'>Contact</Link>
-                        </li>
                         </ul>
                     </div>
                     </nav>
